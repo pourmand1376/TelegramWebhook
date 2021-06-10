@@ -18,10 +18,7 @@ namespace TelegramWebHook
     public class WebApiApplication : System.Web.HttpApplication
     {
         public static TelegramWebHook.Controllers.Telegram Telegram;
-        public static TelegramBotProduct Product;
-        public static SepandLock SepandLock;
-        public static DataSenderClass DataSender1Controller;
-        public static AccountantBot AccountantBot;
+        //public static TelegramBotProduct Product;
         
         protected void Application_Start()
         {
@@ -34,17 +31,6 @@ namespace TelegramWebHook
             Telegram = new Controllers.Telegram();
             Telegram.Start();
 
-
-            SepandLock = new SepandLock();
-            SepandLock.Start();
-            // Product = new TelegramBotProduct();
-            // Product.Start();
-
-
-
-            //DataSender1Controller = new DataSenderClass();
-
-            // AccountantBot = new AccountantBot();
         }
 
         

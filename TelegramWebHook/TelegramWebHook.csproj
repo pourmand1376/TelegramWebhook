@@ -192,10 +192,7 @@
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="App_Data\Groups.json" />
-    <Content Include="App_Data\MessageType.json" />
-    <Content Include="App_Data\Folders.json" />
-    <Content Include="App_Data\Managers.json" />
-    <Content Include="App_Data\SepandManagers.json" />
+    
     <None Include="Properties\PublishProfiles\WebHookTelegram.pubxml" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

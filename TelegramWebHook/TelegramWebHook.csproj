@@ -162,7 +162,6 @@
     <Compile Include="Bot\Telegram.cs" />
     <Compile Include="Bot\TelegramBotProduct.cs" />
     <Compile Include="Controllers\TelegramGroupController.cs" />
-    <Compile Include="Controllers\TelegramProductsController.cs" />
     <Compile Include="EF\ActivityFieldType.cs" />
     <Compile Include="EF\DbContext.cs" />
     <Compile Include="Global.asax.cs">

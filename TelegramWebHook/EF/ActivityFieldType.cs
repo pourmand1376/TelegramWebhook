@@ -11,6 +11,6 @@ namespace TelegramWebHook.EF
         public int Id { get; set; }
         [MaxLength(50)]
         public string Name { get; set; }
-        public IList<Account> Accounts { get; set; }
+        //public IList<Account> Accounts { get; set; }
     }
 }

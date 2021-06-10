@@ -182,7 +182,7 @@
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
       <DependentUpon>Settings.settings</DependentUpon>
     </Compile>
-    <Compile Include="Services\AccountantBot.cs" />
+
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\bootstrap.css" />
